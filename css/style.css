@@ -293,6 +293,9 @@ body > nav > div > button > span{
     color: #fff;
     border-bottom:2px solid #fff;
 }
+.item:hover{
+    filter: brightness(80%);
+}
 /*Menu page ends*/
 
 /*Order page starts*/
