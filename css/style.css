@@ -106,7 +106,7 @@ body > nav > div > button > span{
 /*Carousel ends*/
 
 /* featured starts*/
-.main-feature{
+.main-feature,.contact{
     margin-top: 30px;
     padding: 30px;
     background: #fff;
@@ -330,7 +330,15 @@ form .form-group #btn:hover{
 }
 /*Order page ends*/
 
+/*contact page starts*/
+.contact{
+    margin: 30px;
 
+}
+.contact h2{
+   color: #e2952a;
+}
+/*contact page ends*/
 /*footer starts*/
 .footer h2{
 font-size: 25px;
@@ -360,12 +368,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     font-size: 18px;
 } 
-.footer .subscribe-form .form-group input.submit,.footer .feedback-form .form-group input.submit{
+.footer .subscribe-form .form-group input.submit, input.submit{
     background-color: #e2952a;
     border-radius: 5px;
     color: #fff;
 }
-.footer .subscribe-form .form-group input.submit:hover,.footer .feedback-form .form-group input.submit:hover{
+.footer .subscribe-form .form-group input.submit:hover, input.submit:hover{
 background-color: #f1a02d
 }
 .site-map li{
